@@ -21,7 +21,7 @@ import Password from "../Components/Navbar/Auth/Password";
 import Descpage from "../Components/home/descrip/Descpage";
 import Main from "../Components/home/main/Main";
 import Footer from "../Components/Footer/Footer";
-import Gift from "../Components/Gift/Gift";
+// import Gift from "../Components/Gift/Gift";
 
 const MainRoutes = () => {
   return (
@@ -81,7 +81,7 @@ const MainRoutes = () => {
             </RequiredAuth>
           }
         />
-        <Route path="gift" element={<Gift />} />
+        {/* <Route path="gift" element={<Gift />} /> */}
         <Route path="products/:id" element={<Products />} />
         <Route path="description" element={<Descpage />} />
         <Route path="flash/women" element={<Flash />} />
